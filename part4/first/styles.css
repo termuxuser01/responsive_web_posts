@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+}
+.WrapMenu{
+  background-color: aquamarine;
+  font-family: sans-serif;
+  font-size: 1rem;
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+.Item,
+.Last{
+  text-decoration: none;
+}
+
+.Item{
+  margin-right: 1rem;
+}
+
+.Last{
+  margin-left: auto;
+}
+
+.Centered{
+  background-color: lightpink;
+  color: #545454;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
