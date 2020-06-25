@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <img src="catsmall.jpg"
+         srcset="catmedium.jpg 1.5x. catbig.jpg 2x"
+         alt="A cute cat!"/>
+    <br>
+    <img srcset="catsmall.jpg 360w, catmedium.jpg 900w"
+         sizes="(min-width: 280px) 100vw, (min-width: 640px) 50vw"
+         src="catsmall.jpg"
+         alt="Very cute cat!"/>
+
+    <picture>
+      <source media="(min-width: 480px)" srcset="catmedium.jpg"/>
+      <source media="(min-width: 960px)" srcset="catbig.jpg"/>
+      <img src="catsmall.jpg"
+           alt="A nice cat!"/>
+    </picture>
+
+
+  </body>
+</html>
