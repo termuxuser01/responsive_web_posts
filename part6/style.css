@@ -1,0 +1,40 @@
+.Grid{
+  display: inline-grid;
+  grid-gap: 10px;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px;
+  grid-auto-rows: 200px 100px;
+  grid-auto-columns: 200px 100px;
+  background-color: #e4e4e4;
+  grid-auto-flow: column;
+}
+
+.Item1{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.Item2{
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.Item3{
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.Item4{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+
+[class^='Item']{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  outline: 3px dashed indigo;
+  font-size: 30px;
+  color: #333;
+}
